@@ -1,6 +1,6 @@
 Name: xcb-util-errors
 Version: 1.0
-Release: 0%{%dist}
+Release: 1
 License: MIT
 Summary: Errors library for the C protocol C-language Binding.
 Url: https://xcb.freedesktop.org/
@@ -50,6 +50,9 @@ make install
 /usr/lib64/pkgconfig/xcb-errors.pc
 
 %changelog
+* Tue Jul 12 2022 Bader Zaidan <bader@zaidan.pw> 1.0-1
+- fix release version
+
 * Tue Jul 12 2022 Bader Zaidan <bader@zaidan.pw> 1.0-0%{}
 - new package built with tito
 
