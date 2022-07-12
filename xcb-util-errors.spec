@@ -50,3 +50,6 @@ make install
 /usr/lib64/pkgconfig/xcb-errors.pc
 
 %changelog
+* Tue Jul 12 2022 Bader Zaidan <bader@zaidan.pw> 1.0-0%{}
+- new package built with tito
+
